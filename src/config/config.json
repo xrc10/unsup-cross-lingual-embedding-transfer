@@ -1,0 +1,18 @@
+{
+    "trans_hidden_dim": [],
+    "disc_hidden_dim": [500],
+    "recon_loss_weight":[0.1,0.1],
+    "constraint_loss_weight":1,
+    "init_align_loss_weight":0.1,
+    "trans_activation":0,
+    "cyc_loss":true,
+    "use_BN":false,
+    "lambda_sh":10,
+    "sinkhorn_layer_depth":20,
+    "lr":0.0005,
+    "norm":"scale",
+    "dp_keep_prob":1.0,
+    "epoch":24000,
+    "wgan_epoch":2000,
+    "batch_size":2048
+}
