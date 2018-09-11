@@ -22,3 +22,23 @@ source activate <name of your environment>
 pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow_gpu-1.6.0-cp35-cp35m-linux_x86_64.whl
 pip install tqdm
 ```
+
+## Arguments
+run ``` python src/runner.py --help ``` to see the usage of arguments
+
+## Example script
+``example.sh`` gives a example run of our model. It will run the "bg-en" experiment of "LEX-C". You need to download data before running.
+
+```
+cd data
+./download.sh
+```
+
+Note that this data is a subset of the release from https://github.com/facebookresearch/MUSE
+
+Then run the following command to start training:
+
+```
+cd .. # back to root directory
+./example.sh
+```

@@ -3,12 +3,12 @@ TGT_LANG=en; # target language
 
 DATA_ROOT=./data/;
 
-VAL_SPLIT=0-5000 # validation data. Note that this is not used for model selection
+VAL_SPLIT=0-5000 # validation data. Note that this is not used for any model selection
 TRN_SPLIT=0-5000
 TRAIN_MAX_SIZE=10000 # the top N words included in training
 TRANS_MAX_SIZE=200000 # the top M words include for testing
 
-export CUDA_VISIBLE_DEVICES=3;
+# export CUDA_VISIBLE_DEVICES=3;
 
 # train the word embedding
 python src/runner.py \
