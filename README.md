@@ -1,3 +1,4 @@
+
 # unsup-cross-lingual-embedding-transfer
 Code for "Unsupervised Cross-lingual Transfer of Word Embedding Spaces" in EMNLP 2018
 
@@ -27,18 +28,18 @@ pip install tqdm
 run ``` python src/runner.py --help ``` to see the usage of arguments
 
 ## Example script
-``example.sh`` gives a example run of our model. It will run the "bg-en" experiment of "LEX-C". You need to download data before running.
+``example.sh`` gives an example run of our model. It will run the "bg-en" experiment of "LEX-C" and then evaluate the accuracy@1. You need to download data before running:
 
 ```
 cd data
 ./download.sh
 ```
 
-Note that this data is a subset of the release from https://github.com/facebookresearch/MUSE
+Note that this data is a subset of the release from [MUSE](https://github.com/facebookresearch/MUSE) .
 
 Then run the following command to start training:
 
 ```
-cd .. # back to root directory
+cd .. # back to root repo directory
 ./example.sh
 ```
