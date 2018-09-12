@@ -1,6 +1,7 @@
 
 # unsup-cross-lingual-embedding-transfer
-Code for "Unsupervised Cross-lingual Transfer of Word Embedding Spaces" in EMNLP 2018
+Code for "Unsupervised Cross-lingual Transfer of Word Embedding Spaces" in EMNLP 2018 [[pdf
+]](https://arxiv.org/abs/1809.03633)
 
 ## Setup
 
