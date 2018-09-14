@@ -21,7 +21,7 @@ wget https://repo.continuum.io/archive/Anaconda3-5.0.1-Linux-x86_64.sh
 conda create -n <name of your environment> python=3.6 anaconda
 source activate <name of your environment>
 
-pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow_gpu-1.6.0-cp35-cp35m-linux_x86_64.whl
+pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow_gpu-1.6.0-cp36-cp36m-linux_x86_64.whl
 pip install tqdm
 ```
 
