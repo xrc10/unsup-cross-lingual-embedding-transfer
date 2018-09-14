@@ -44,3 +44,14 @@ Then run the following command to start training:
 cd .. # back to root repo directory
 ./example.sh
 ```
+
+## Cite
+Please consider citing our paper if you find this repo useful in your research.
+```
+@article{xu2018unsupervised,
+  title={Unsupervised Cross-lingual Transfer of Word Embedding Spaces},
+  author={Xu, Ruochen and Yang, Yiming and Otani, Naoki and Wu, Yuexin},
+  booktitle={Conference on Empirical Methods on Natural Language Processing},
+  year={2018}
+}
+```
